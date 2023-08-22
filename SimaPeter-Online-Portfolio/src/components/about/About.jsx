@@ -1,22 +1,24 @@
-import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Image from '../Img/About-page-img.jpg';
+import React from 'react';
+import './About.css';
 
 
 function About() {
   return (
-    <Container>
-        <section className="About" >
-          <div style={{
-            width: '100%',
-            height: '100vh',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundImage: `url(${Image})`
-          }}></div>
-      
+        <section className="about" >
+          <div class="about-content">
+            <h1>About Me</h1>
+            <br></br>
+            <p>
+              Hello there! I am a junior software developer,
+              I build websites using front-end and back-end. I am very creative.
+              I am good with graphics and design. I am passionate and dedicated to my work. 
+              With the learning experience, I've gained at my learnership. I have acquired 
+              the skills and knowledge necessary to make projects a success.
+            </p>
+            <a href="#">Hire me</a>
+
+          </div>
         </section>
-    </Container>
   )
 }
 

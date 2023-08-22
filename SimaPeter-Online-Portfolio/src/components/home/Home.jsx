@@ -1,23 +1,24 @@
-import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Image from '../Img/Home.jpg';
+import React from 'react';
+import './Home.css';
 
 
 
 function Home() {
   return (
-    <Container>
-        <section className="Home" >
-          <div style={{
-            width: '1920px',
-            height: '1080px',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundImage: `url(${Image})`
-          }}></div>
-      
-        </section>
-    </Container>
+    <section className="hero">
+      <div className="home-content">
+        <h1>Hello, I'm</h1>
+        <h2>Sima Peter</h2>
+        <p>
+          A junior software developer
+          I am a junior software developer based in Cape Town,
+          currently building websites using front-end and back-end.
+        </p>
+        <a href="#">Download CV</a>
+
+
+      </div>
+    </section> 
   )
 }
 

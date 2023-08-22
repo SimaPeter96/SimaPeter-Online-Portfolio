@@ -1,6 +1,10 @@
-.Home{
-    position: relative;
-    width: 100%;
-    justify-content: space-between;
-    height: 100vh;
+.backgroundImge{ 
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url('../Img/Home.jpg');
+    background-size: cover;
+    background-position: center;
 }
+    
+
+

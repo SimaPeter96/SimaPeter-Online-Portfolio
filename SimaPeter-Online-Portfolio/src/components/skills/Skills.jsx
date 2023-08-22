@@ -1,14 +1,24 @@
-import React from 'react'
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Image from '../Img/Skills-img.jpg';
 
 function Skills() {
   return (
-    <div> 
-        <br></br><h1>Skills</h1><br></br>
-        <h4>These are the skills I have gained during my learnership program</h4>
+    <Container>
+    <section className="About" >
+      <div style={{
+        width: '100%',
+        height: '100vh',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundImage: `url(${Image})`
+      }}></div>
+  
+    </section>
+</Container>
+   
 
-
-
-    </div>
+    
   )
 }
 

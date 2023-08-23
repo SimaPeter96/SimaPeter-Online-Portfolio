@@ -1,13 +1,15 @@
 import React from 'react'
+import './Contact.css'
 
 function Contact() {
   return (
-    <div>
-        <br></br><h4>You have any projects?</h4>
-        <br></br><h5>lets Chat</h5>
-        
+    <section className='contact' id="contact">
+      <div className='contact-content'>
+        <h2>You have any projects?</h2>
+        <h3>Lets chat</h3>
 
-    </div>
+      </div>
+    </section>
   )
 }
 

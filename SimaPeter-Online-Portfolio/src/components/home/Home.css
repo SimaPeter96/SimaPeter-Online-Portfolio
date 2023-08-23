@@ -4,10 +4,10 @@
     box-sizing: border-box;
     font-family: 'Carrois Gothic', sans-serif;
 }
-.hero {
+.home {
     display: flex;
     height: 100vh;
-    background-image: url('../Img/Home.jpg');
+    background-image: url('../Img/Home-bg.jpg');
     background-size: cover;
 }
 .home-content{

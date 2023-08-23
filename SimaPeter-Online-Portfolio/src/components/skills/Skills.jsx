@@ -1,12 +1,13 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
+import './Skills.css';
 
 
 function Skills() {
   return (
    
-    <section className="skills" >
-      <div className='skills-content'>
+    <section className="skills" id="skills" >
+      <div className="skills-content">
+        <h2>Skills</h2>
 
       </div>
     </section>

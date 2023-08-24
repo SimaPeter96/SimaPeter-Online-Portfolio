@@ -10,7 +10,7 @@ function Home() {
   return (
     <section className="home" id="home">
       <Container>
-        <Row>
+        <Row className="Row-Col">
           <Col md={6} className="align-self-center">
             <div className="home-content">
               <h1>Hello, I'm</h1>
@@ -19,7 +19,7 @@ function Home() {
                 I am a junior software devloper based in Cape Town,
                 currently building websites using front-end and back-end.
               </p>
-              <a href="#">Download CV</a>
+              <a href="#about">About Me</a>
             </div>
           </Col>
           <Col md={6}>

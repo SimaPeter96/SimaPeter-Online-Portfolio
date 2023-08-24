@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Carrois Gothic', sans-serif;
+    align-content: center;
 }
 
 .skills{
@@ -12,18 +13,42 @@
     background-size: cover; 
 }
 
-.skills-content{
-    border: 1px; 
-    display: flex;
-    flex-direction: column;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
+.skills-bx{
+    background: #AFCBEC;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-bottom: -30px;
 }
 
-.skills-content h2{
-    font-size: 56px;
-    font-weight: bold;
+.skills h2{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.Skills h1{
+    font-size: 45px;
+    font-weight:normal;
+    text-align: center;
+}
+
+.Skills p{
+   color: black;
+   font-size: 18px;
+   letter-spacing: 0.8px;
+   line-height: 1.5em;
+   margin: 14px 0 75px 0;
+   text-align: justify content;
+   font-family: 'Carrois Gothic', sans-serif;
+}
+
+.skills-slider{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.skills-slider .item img{
+    width: 50%;
+    margin: 0 auto 15px auto;
 }

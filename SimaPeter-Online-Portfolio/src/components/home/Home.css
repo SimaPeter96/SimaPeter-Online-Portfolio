@@ -1,15 +1,16 @@
 *{
-    margin: 0;
-    padding: 0;
+   
     box-sizing: border-box;
     font-family: 'Carrois Gothic', sans-serif;
 }
+
 .home {
     display: flex;
     height: 100vh;
     background-image: url('../Img/Home-bg.jpg');
     background-size: cover;
 }
+
 .home-content{
    border: 1px; 
    display: flex;
@@ -41,4 +42,11 @@
     font-size: 20px;
     border-radius: 20px;
     
+}
+
+.jpg {
+    display: flex;
+    justify-content: right;
+    bottom: 0%;
+    padding-top: 5%;
 }

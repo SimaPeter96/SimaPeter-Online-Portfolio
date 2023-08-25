@@ -12,29 +12,3 @@
     background-size: cover; 
 }
 
-.image-container{
-    position: relative;
-}
-
-.tooltip-inner{
-   background-color: #abd7fc;
-   color: #fff;
-   padding: 8px;
-   border-radius: 4px;
-   font-size: 14px; 
-}
-
-.tooltip-arrow{
-    border-color: #abd7fc;
-}
-
-.tooltip a{
-    color: #fff;
-    text-decoration: none;
-}
- 
-.Image-Size {
-    max-width: 150px;
-    height: auto;
-}
-

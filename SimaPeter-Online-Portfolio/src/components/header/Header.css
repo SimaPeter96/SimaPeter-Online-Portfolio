@@ -6,12 +6,12 @@
 }
 
 .NavContainer{
-    position: sticky;
-    top:0;
+    position: fixed;
+    width: 100%;
     z-index:100;
     background-color: #AFCBEC;
     transition: none;
-    box-shadow: #6cb1ff;
+ 
 }
 
 .logo{

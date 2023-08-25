@@ -10,7 +10,7 @@ function Home() {
   return (
     <section className="home" id="home">
       <Container>
-        <Row className="Row-Col">
+        <Row className="Row-Col home-col">
           <Col md={6} className="align-self-center">
             <div className="home-content">
               <h1>Hello, I'm</h1>
@@ -22,7 +22,7 @@ function Home() {
               <a href="#about">About Me</a>
             </div>
           </Col>
-          <Col md={6}>
+          <Col md={6} className='jpg'>
             <img src={Image}  alt="Image"  className="img-fluid"
             />
           </Col>

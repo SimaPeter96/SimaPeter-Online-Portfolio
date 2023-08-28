@@ -1,35 +1,76 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Carrois Gothic', sans-serif;
-}
-
-.contact{
-    display: flex;
+  }
+  
+  .contact {
     height: 100vh;
     background-image: url('../Img/Contact.jpg');
-    background-size: cover; 
-}
-
-.contact-content{
-    border: 1px; 
+    background-size: cover;
     display: flex;
-    flex-direction: column;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
     justify-content: center;
     align-items: center;
-}
-
-.contact-content h2{
-    font-size: 56px;
-    font-weight: bold;
-}
-
-.contact-content h3{
+    flex-direction: column;
+  }
+  
+  .ContactHeading {
     font-size: 40px;
-    font-weight: lighter;
-}
+    font-weight: normal;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .contactSubtitle {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contactForm {
+    text-align: center;
+    padding-right: 30%;
+    padding-left: 15%;
+    
+  }
 
+  
+  .contactForm .form-control {
+    width: 200%; /* Increase the width of the text fields */
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #84A5C2;
+  }
+
+  .btn-custom {
+    background-color: #356093;
+    border-color: #C6DCF0;
+    color: white;
+    width: 8%;
+    border-radius: 20px;
+  }
+  
+  .btn-custom:hover {
+    background-color: #356093;
+    border-color:  #C6DCF0;
+  }
+  
+  
+  /* Media Query for responsiveness */
+  @media (max-width: 768px) {
+    .ContactHeading {
+      font-size: 32px;
+    }
+  
+    .contactSubtitle {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+  
+    .contactForm .form-control {
+      margin-bottom: 8px;
+    }
+  }
+  

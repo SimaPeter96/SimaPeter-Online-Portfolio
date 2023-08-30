@@ -22,18 +22,20 @@
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+    text-align: left;
 }
 
 .about-content h1{
-    font-size: 56px;
+    font-size: 36px;
     font-weight: bold;
 }
 
 .about-content p{
-    font-size: 22px;
+    font-size: 18px;
     margin: 15px 0;
     max-width: 550px;
-    letter-spacing: 2px;
+   line-height: 1.5;
+  
 }
 
 .about-content a{
@@ -45,3 +47,17 @@
     border-radius: 20px;
     
 }
+
+@media (min-width: 768px) {
+    .about-content {
+      max-width: 70%; /* Limit width on larger screens */
+    }
+  
+    .order-md-1 {
+      order: 1; /* Change order of columns on larger screens */
+    }
+  
+    .order-md-2 {
+      order: 2; /* Change order of columns on larger screens */
+    }
+  }

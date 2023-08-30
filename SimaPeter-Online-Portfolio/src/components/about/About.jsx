@@ -8,12 +8,12 @@ function About() {
   return (
         <section className="about" id="about">
           <Container>
-            <Row className="Row-Col">
+            <Row className="Row-Col-About-Col">
               <Col md={6}>
                 <img src={Image} alt="Image" className="img-fluid"/>
               </Col>
               <Col md={6} className="align-self-center">
-                <div className="home-content">
+                <div className="about-content">
                   <h1>About Me</h1>
                   <br></br>
                   <p>Hello there! I am a junior software developer.I build 

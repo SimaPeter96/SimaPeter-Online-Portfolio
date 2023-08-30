@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Image from '../Img/MyImg.png';
+import Button from 'react-bootstrap/Button';
 import './Home.css';
 
 
@@ -15,11 +16,11 @@ function Home() {
             <div className="home-content">
               <h1>Hello, I'm</h1>
               <h2>Sima Peter</h2>
-              <p>A junior software developer
+              <p>A junior software developer<br></br>
                 I am a junior software devloper based in Cape Town,
                 currently building websites using front-end and back-end.
               </p>
-              <a href="#about">About Me</a>
+              <Button variant='custom' type='submit'>About Me</Button>
             </div>
           </Col>
           <Col md={6} className='jpg'>

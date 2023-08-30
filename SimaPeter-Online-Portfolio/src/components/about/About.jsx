@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import Image from '../Img/about-Img.png';
+import Button from 'react-bootstrap/Button';
+import Image from '../Img/AboutImg.png';
 import './About.css';
 
 
@@ -10,7 +11,7 @@ function About() {
           <Container>
             <Row className="Row-Col-About-Col">
               <Col md={6}>
-                <img src={Image} alt="Image" className="img-fluid"/>
+                <img src={Image} alt="Image" className="about-Img"/>
               </Col>
               <Col md={6} className="align-self-center">
                 <div className="about-content">
@@ -23,7 +24,7 @@ function About() {
                     at my learnership, I have acquired the skills and knowledge necessary
                     to make projects a success.
                   </p>
-                  <a href="#">Download CV</a>
+                  <Button className='bounce-button' variant='custom-about' type='submit'>Hire Me</Button>
                 </div>
               </Col>
             </Row>

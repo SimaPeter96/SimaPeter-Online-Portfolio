@@ -45,7 +45,7 @@
     background-color: #84A5C2;
   }
 
-  .btn-custom {
+  .btn-custom-contact {
     background-color: #356093;
     border-color: #C6DCF0;
     color: white;
@@ -53,7 +53,7 @@
     border-radius: 20px;
   }
   
-  .btn-custom:hover {
+  .btn-custom-contact:hover {
     background-color: #356093;
     border-color:  #C6DCF0;
   }

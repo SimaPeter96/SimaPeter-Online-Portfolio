@@ -43,7 +43,7 @@
     padding-left: 380px;
   }
   
-  .btn-custom {
+  .btn-custom-home {
     background-color: #356093;
     border-color: #C6DCF0;
     color: white;
@@ -55,19 +55,21 @@
 
   }
   
-  .btn-custom:hover {
+  .btn-custom-home:hover {
     background-color: #356093;
     border-color:  #C6DCF0;
   }
  
+
+
   .jpg {
     display: flex;
     justify-content: flex-end;
     padding-top: 5%;
     position: absolute;
-    bottom: 0;
     right: 0;
-    margin-left: 100%;
+    margin-right: 100px;
+  
    
   }
   
@@ -80,13 +82,4 @@
     border-radius: 20px;
   }
   
-  /* JPG image container */
-  .jpg {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 5%;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
-  
+

@@ -19,7 +19,7 @@ function Contact() {
           <Form.Control type="email" placeholder="Email" ></Form.Control>
           <Form.Group className="textarea" control Id="Description" ><Form.Control as="textarea" rows={3} /></Form.Group>
         </Form>
-        <Button variant='custom' type='submit'>Send</Button>
+        <Button variant='custom-contact' type='submit'>Send</Button>
         <div className="social-media-links">
           <p><img src={GithubImg } alt=""/></p>
           <p><img src={linkedInImg} alt=""/></p>

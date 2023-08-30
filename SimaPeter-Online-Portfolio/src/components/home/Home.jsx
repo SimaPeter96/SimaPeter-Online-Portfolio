@@ -15,10 +15,10 @@ function Home() {
               <h1>Hello, I'm</h1>
               <h2 className="home-content h2">Sima Peter</h2>
               <p>A Junior <span>Software Development</span><br></br>
-                I am a junior software devloper based in Cape Town,
+                I am a junior software developer based in Cape Town,
                 currently building websites using front-end and back-end.
               </p>
-              <Button variant='custom' type='submit'>About Me</Button>
+              <Button variant='custom-home' type='submit'>About Me</Button>
             </div>
           </Col>
           <Col md={6} className='jpg'>

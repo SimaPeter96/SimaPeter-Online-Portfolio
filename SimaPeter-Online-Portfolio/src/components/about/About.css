@@ -8,21 +8,35 @@
 .about{
     display: flex;
     height: 100vh;
-    background-image: url('../Img/about-bg.jpg');
+    background-image: url('../Img/aboutBG.jpg');
     background-size: cover; 
    
 }
 
+.about-Img{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 5%;
+  position: absolute;
+  right: 0;
+  margin-right: 80px;
+
+}
 .about-content{
     border: 1px; 
     display: flex;
     flex-direction: column;
     max-width: 1200px;
     width: 100%;
-    margin: 0 auto;
+    margin-top: 30%;
     justify-content: center;
     align-items: center;
     text-align: left;
+    margin-left: 25%;
+    
+
+
+    
 }
 
 .about-content h1{
@@ -38,14 +52,38 @@
   
 }
 
-.about-content a{
-    color: white;
-    text-decoration: none;
-    background-color: #356093;
-    padding: 10px 20px;
-    font-size: 20px;
-    border-radius: 20px;
-    
+
+
+.bounce-button {
+  animation: bounce 2s infinite;
+}
+
+.btn-custom-about {
+  background-color: #356093;
+  border-color: #C6DCF0;
+  color: white;
+  width: '';
+  border-radius: 20px;
+  margin-right: 70px;
+  
+
+}
+
+.btn-custom-about:hover {
+  background-color: #356093;
+  border-color:  #C6DCF0;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
 }
 
 @media (min-width: 768px) {
@@ -61,3 +99,4 @@
       order: 2; /* Change order of columns on larger screens */
     }
   }
+

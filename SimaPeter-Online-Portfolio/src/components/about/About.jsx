@@ -22,7 +22,8 @@ function About() {
                     I'm good with graphics and design. I am very passionate and
                     dedicated to my work. With the training experience, I've gained
                     at my learnership, I have acquired the skills and knowledge necessary
-                    to make projects a success.
+                    to make projects a success. Fun facts about me are, I love listening to  music 
+                    and dancing. And I enjoy going to the gym.
                   </p>
                   <Button className='bounce-button' variant='custom-about' type='submit'>Hire Me</Button>
                 </div>

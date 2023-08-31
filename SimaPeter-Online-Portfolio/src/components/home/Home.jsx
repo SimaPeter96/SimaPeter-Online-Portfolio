@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import './Home.css';
 
 
+
 function Home() {
   return (
     <section className="home" id="home">
@@ -14,7 +15,7 @@ function Home() {
             <div className="home-content">
               <h1>Hello, I'm</h1>
               <h2 className="home-content h2">Sima Peter</h2>
-              <p>A Junior <span>Software Development</span><br></br>
+              <p>A Junior <span>Software Developer</span><br></br>
                 I am a junior software developer based in Cape Town,
                 currently building websites using front-end and back-end.
               </p>

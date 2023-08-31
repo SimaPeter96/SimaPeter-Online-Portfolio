@@ -40,15 +40,17 @@
 }
 
 .about-content h1{
+    font-family: 'Share Tech Mono', monospace;
     font-size: 36px;
     font-weight: bold;
 }
 
 .about-content p{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
     font-size: 18px;
     margin: 15px 0;
     max-width: 550px;
-   line-height: 1.5;
+    line-height: 1.5;
   
 }
 

@@ -22,25 +22,18 @@
 }
 
 .skills-heading{
+    font-family: 'Share Tech Mono', monospace;
     font-size: 36px;
     font-weight: bold;
     text-align: center;
 }
 
 .skills-content-container p{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
     text-align: center;
     font-weight: normal;
     font-size: 22px;
-    letter-spacing: 2px;
-    font-family: 'Carrois Gothic', sans-serif;
-}
-
-.skills-bx{
-    background: #AFCBEC;
-    border-radius: 80px;
-    text-align: center;
-    padding-bottom: 60px 30px;
-    height: 300px;
+    
 }
 
 .skills-content-container h2{ 
@@ -49,28 +42,14 @@
     margin-top: 20px;
 }
 
-.skills-image {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  padding-top: auto;
-  margin-top: 25%;
-}
-
-
-.skills-slider{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.skills-slider .item img{
-    width: 50%;
-    margin: 0 auto 15px auto;
-}
-
-
-
+  .img-gif {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20%;
+    position: absolute;
+    margin-left: 300px;
+  }
+  
   
   
   
